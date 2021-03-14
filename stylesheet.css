@@ -7,12 +7,12 @@ html{
     width: fit-content;
 }
 #logo{
-    margin: 13px 100px
+    margin: 6px 42px;
 }
 #logo img{
     width: 122px;
     height: 93px;
-    margin: -36px -87px;
+    margin: 0px;
     padding: 23px;
 }
 #navbar{
@@ -21,6 +21,7 @@ html{
     top: 0px;
     z-index: 1;
     position: sticky;
+    height: 24vh;
 }
 #navbar ul{
     display: flex;
@@ -30,30 +31,30 @@ html{
     content: "";
     position: absolute;
     background-color: black;
-    height: 99%;
+    height: 24vh;
     width: 100%;
     z-index: -1;
-    top:0px;
-    left:0px;
+    top: 0px;
+    left: 0px;
     opacity: 0.8;
 }
 #navbar ul li{
     list-style: none;
-    font-size: 1.8rem;
+    height: 11vh;
 }
 #navbar ul li a{
     display: block;
-    border-radius: 20px;
+    border-radius: 11px;
     text-decoration: none;
-    margin: 34px 34px;
-    padding: 9px 38px;
-    color:white;
+    margin: 0px 12px;
+    padding: 7px 38px;
+    color: white;
     font-style: bold;
-    font-size: 40px;
+    font-size: 2rem;
 }
 #navbar ul li a:hover{
     /* display: block; */
-    border-radius: 40px;
+    border-radius: 30px;
     background-color:white;
     color: black;
     /* padding: 35px 27px; */
